@@ -1,0 +1,16 @@
+.anim{
+    width: 300px;
+    border: 3px dotted palevioletred;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: powderblue;
+    text-align: center;
+    text-transform: capitalize;
+}
+.anim:hover{
+    transform: rotateX(360deg);
+    transition: 1.5s;
+}
+.anim1{
+    width: 300px;
+}

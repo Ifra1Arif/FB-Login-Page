@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    background-color: #f0f2f5;
+}
+.fb1{
+    margin: 20px;
+    margin-left: -320px;
+}
+form{
+    background-color: #fff;
+    position: absolute;
+    width: 385px;
+    height: 325px;
+    padding: 15px 5px 20px 5px;
+    margin: -32vh 790px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 6px -7px;
+}
+input[type=email], input[type=password]{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.7px solid rgb(200, 200, 200);
+    width: 290px;
+    padding: 15px 36px;
+    border-radius: 5px;
+    text-align: left;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+.f-pw{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px;
+    margin-top: 5px;
+    color: #1877f2;
+}
+.f-pw:hover{
+    text-decoration: underline;
+}
+button{
+    border: none;
+    background-color: #1877f2;
+    margin: auto;
+    width: 364px;
+    display: block;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 190px;
+    background-color: #42b72a;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    margin: 5px;
+    margin-left: 95px;
+}
+.f-pw{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    padding-left: 60px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 14.5px;
+}
+.line{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1{
+    color: #1877f2;
+    margin: auto;
+    margin-top: 200px;
+    margin-left: 470px;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 700;
+}
+.one{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin: auto;
+    margin-left: 470px;
+    display: flex;
+}
+.btn1:hover{
+    background-color: #1366d1;
+}
+.btn2:hover{
+    background-color: #3ba327;
+}
+input:focus{
+    border-color: rgb(35, 35, 250);
+}
+.sub{
+    width: 370px;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 165px 760px;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.sub h3 a{
+    color: black;
+    font-weight: bolder;
+}
+.sub h3 a:hover{
+    text-decoration: underline;
+}
